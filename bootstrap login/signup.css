@@ -1,0 +1,37 @@
+*{
+    background-color: white;
+  
+    color: green;
+    padding: 5px 20px;
+    text-align: center;
+    margin: 10px 15px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+form{
+    margin-top: 50px;
+    text-align: center;
+}
+input{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    font-size: 20px;
+}
+button{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    background-color: blue;
+    border:none;
+    color: white;
+}
